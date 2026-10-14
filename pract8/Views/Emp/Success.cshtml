@@ -1,0 +1,17 @@
+@{
+    ViewBag.Title = "Success Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <h1>Registration Done Successfully</h1>
+    <p>Welcome! The user has been created successfully.</p>
+    @Html.ActionLink("Back to Create Form", "Create", "Emp")
+</body>
+</html>
